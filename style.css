@@ -1,0 +1,62 @@
+@import url('https://assets.digital.mil/fonts/gotham/gotham.css');
+
+body {
+margin: 0;
+background: #0d0d0d;
+color: #00ff41;
+font-family: 'Gotham Light', 'Helvetica Neue', sans-serif;
+overflow: hidden;
+}
+
+.container { position: relative; width: 100vw; height: 100vh; }
+
+header {
+position: absolute;
+top: 0; left: 0; right: 0;
+background: rgba(0,0,0,0.8);
+padding: 15px 30px;
+text-align: center;
+z-index: 1000;
+border-bottom: 2px solid #00ff41;
+}
+
+h1 {
+margin: 0;
+font-size: 2.2rem;
+letter-spacing: 4px;
+text-shadow: 0 0 10px #00ff41;
+}
+
+.subtitle {
+margin: 5px 0 0;
+font-size: 0.9rem;
+letter-spacing: 3px;
+opacity: 0.8;
+}
+
+#map { width: 100%; height: 100%; }
+
+.panel {
+position: absolute;
+bottom: 20px; left: 20px; right: 20px;
+background: rgba(0,0,0,0.85);
+border: 1px solid #00ff41;
+padding: 15px;
+z-index: 1000;
+border-radius: 4px;
+backdrop-filter: blur(5px);
+}
+
+.status {
+font-size: 1.5rem;
+margin-bottom: 10px;
+letter-spacing: 2px;
+}
+.green { color: #00ff41; text-shadow: 0 0 8px #00ff41; }
+.red { color: #ff0044; text-shadow: 0 0 8px #ff0044; }
+
+.filters label {
+color: #00ff41;
+font-size: 1.1rem;
+}
+
